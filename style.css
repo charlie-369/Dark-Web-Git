@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: blueviolet;
+}
+#card{
+    height: 400px;
+    width: 280px;
+    background-color: beige;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+img{
+height: 50%;
+width: 100%;
+object-fit: cover;
+object-position: center;
+border-radius: 40px;
+
+}
+#look{
+    margin-top: 7%;
+    font-size: 25px;
+    font-size:xx-large;
+}
+#btn{
+    margin-top: 10%;
+    font-size: x-large;    
+    background-color: rgb(25, 97, 80);
+    color: aliceblue;
+    border-radius:10px;
+}
