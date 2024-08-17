@@ -3,42 +3,54 @@
     padding: 0;
     box-sizing: border-box;
 }
-html,body{
-    height: 100%;
+.main{
     width: 100%;
-}
-body{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    background-color: blueviolet;
-}
-#card{
-    height: 400px;
-    width: 280px;
-    background-color: beige;
-    border-radius: 10px;
-    padding: 30px;
-    text-align: center;
-    font-size: 30px;
-}
-img{
-height: 50%;
-width: 100%;
-object-fit: cover;
-object-position: center;
-border-radius: 40px;
+    height: 100vh;
+    background: url(https://img.lovepik.com/photo/48017/2818.jpg_wh860.jpg) center center;
+    background-size: cover;
 
 }
-#look{
-    margin-top: 7%;
-    font-size: 25px;
-    font-size:xx-large;
+.overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color:rgba(0,0,0,0.7);
+   
 }
-#btn{
-    margin-top: 10%;
-    font-size: x-large;    
-    background-color: rgb(25, 97, 80);
+.title{
+    margin-top: 30px;
+    color: white;
+    font-size: 5rem;
+   
+}
+.title2{
+    margin-top: 30px;
+    color: white;
+    font-size: 3rem;
+}
+.col{
+    width: 1000px;
+    margin: 50px auto;
+    box-sizing: border-box;
+    display: flex;
+   
+    justify-content: center;
+}
+.col div{
+    text-align: center;
+    width: 250px;
     color: aliceblue;
-    border-radius:10px;
+    font-size: x-large;
+}
+input{
+    height: 60px;
+    width: 60%;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 0.896);
+    text-align: center;
+    font-size: 50px;
+    color: black;
 }
